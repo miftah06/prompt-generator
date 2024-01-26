@@ -6,9 +6,9 @@ def create_prompt(input_file, output_file):
     # Buat prompt AI dari keyword
     prompt = " ".join(keywords)
 
-    # Tulis prompt ke file output
+    # Tulis prompt ke file output dengan new line untuk setiap kata
     with open(output_file, 'w') as file:
-        file.write(prompt)
+        file.write("\n".join(keywords))
 
 def sort_elements(input_list):
     try:
