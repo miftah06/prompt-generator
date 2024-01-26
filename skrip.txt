@@ -1,24 +1,48 @@
-snippet = search_item.get(""""snippet"""") import urllib.parse as p # save it to a file def
-print_windows_profiles(verbose): # length of bounding box profile = profile(**data) continue from tqdm
-import tqdm for file in os.listdir(network_connections_path): # extract location # initialize the cv2 qrcode
-detector # iterate over all public repositories username = """"x4nth055"""" # search repositories by
-name # date of account last update key = key[0].strip().strip("""":"""").strip() [list]: list of extracted
-profiles,
-repo.created_at) print(""""=""""*100) print(f""""[+] {target_domain} is found on rank #{rank} for keyword:
-'{query}'"""") print(""""date of last push:"""",
-file))"" ""print(""""description:"""",
-randint) # get a random element from this list import random ssid_details =
-subprocess.check_output(f""""""""""""netsh wlan show profile """"{ssid}"""" key=clear"""""""""""").decode()
-# get the page rank followers = user_data[""""followers""""] print(""""-""""*50) # crypto-secure string
-generation # save img to a file print(content) print(""""number of stars:"""",
-5) name = user_data[""""name""""]"" ""print(""""=""""*100) verbose (int,
-l) import zipfile # display the image with lines randint = random.randint(1,
-thickness=2) from collections import namedtuple zip_file.extractall(pwd=word.strip()) for content in
-repo.get_contents(""""""""): break filename = sys.argv[1] date_updated = user_data[""""updated_at""""]
-print(""""total passwords to test:"""",
-data) break if found: g = github(username,
-""""key""""] # repository content (files & directories) # the zip file you want to crack its password # detect
-and decode # the date of when the repo was created search_items = data.get(""""items"""") # target
-domain is found,
-repo.stargazers_count) # count the number of words in this wordlist # get your search engine id on your
-cse control panel # or use this query = sys.argv[2] # get the page rank for i in range(len(bbox)):
+import keyword
+import random
+
+def generate_related_keywords(base_keyword, num_keywords):
+    related_keywords = set()
+
+    # Menambahkan kata kunci dasar ke dalam set
+    related_keywords.add(base_keyword.lower())
+
+    # Menambahkan kata kunci terkait sebanyak yang diinginkan
+    while len(related_keywords) < num_keywords:
+        # Pilih kata kunci acak dari kata kunci yang ada
+        random_keyword = random.choice(list(related_keywords))
+
+        # Dapatkan kata kunci terkait dengan kata kunci acak
+        new_keywords = [kw.lower() for kw in keyword.kwlist if kw.lower() not in related_keywords]
+
+        # Periksa apakah daftar tidak kosong sebelum memilih
+        if new_keywords:
+            related_keywords.add(random.choice(new_keywords))
+        else:
+            break  # Hentikan loop jika daftar kosong
+
+    return list(related_keywords)
+
+def save_to_file(filename, data):
+    with open(filename, "w", encoding="utf-8") as file:
+        file.write("\n".join(data))
+
+if __name__ == "__main__":
+    # Opsi kata kunci dari pengguna
+    base_keyword = input("Masukkan kata kunci dasar: ")
+    num_related_keywords = 10000  # Minimal 100 kata kunci terkait
+
+    # Hasilkan kata kunci terkait
+    related_keywords = generate_related_keywords(base_keyword, num_related_keywords)
+
+    # Pisahkan hasil menjadi dua kalimat secara acak
+    random.shuffle(related_keywords)
+    mid_index = len(related_keywords) // 2
+    fitur_keywords = related_keywords[:mid_index]
+    objek_keywords = related_keywords[mid_index:]
+
+    # Simpan kata kunci terkait ke dalam file
+    save_to_file("fitur.txt", fitur_keywords)
+    save_to_file("objek.txt", objek_keywords)
+
+    print("Data kata kunci terkait telah disimpan dalam fitur.txt dan objek.txt.")
