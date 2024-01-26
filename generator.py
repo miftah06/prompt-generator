@@ -40,7 +40,7 @@ def create_prompt(input_file1, input_file2, output_file, command_option, specifi
             if prompt_type == "text":
                 output_line = f"\n\n\n HASIL OUTPUTNYA : \n\n\n {command_option} {specification_option} serta {object_option} {prompt} \n\n dengan tambahan fungsi {object_options} \n\n adapun jika isinya berupa {skrip} {key1_option} \n\n\n\n dengan skrip: \n\n {skrip_option} {specification_option}\n\n\n"
             elif prompt_type == "image":
-                output_line = f"Generate image with command: \n\n\n {command_option}, dengan latar secara colorful dengan penuh estetika nuansa {specification_option} bertemakan {key1_option} dengan warna {object_option} \n\n\n"
+                output_line = f"Generate image with command: \n\n\n {command_option}, dengan latar elegant dengan penuh estetika nuansa {specification_option} bertemakan {key1_option} dengan warna {object_option} \n\n\n"
             elif prompt_type == "script":
                 output_line = f"Execute script: \n\n\n {command_option} {specification_option} dan serta {prompt} jika hal tersebut berupa  \n {skrip_options} \n dengan {object_option} \n\n di dalam skrip {skrip} {key1_option} \n\n dengan module atau plugin tambahan {skrip_option}{features_option} \n\n\n {specification_option}\n\n\n\n"
             else:
