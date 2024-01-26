@@ -1,3 +1,12 @@
+untuk instalasi jangan lupa download python terlebih dahulu:
+
+```bash
+apt install python-is-python3
+```
+atau buat di windows:
+
+https://www.python.org/downloads/
+
 ### Instalasi
 
 Untuk menggunakan skrip-skrip dalam proyek ini, ikuti langkah-langkah instalasi berikut:
