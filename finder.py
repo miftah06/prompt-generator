@@ -1,7 +1,7 @@
 import random
 
 # Baca isi prompt dari input.txt
-with open("input.txt", "r") as file:
+with open("output.txt", "r") as file:
     prompt_text = file.read()
 
 # Pisahkan setiap kalimat prompt
@@ -14,7 +14,7 @@ random.shuffle(prompt_sentences)
 shuffled_prompt = ".".join(prompt_sentences)
 
 # Tulis prompt yang sudah diacak ke dalam file output.txt
-with open("output.txt", "w") as file:
+with open("hasil.txt", "w") as file:
     file.write(shuffled_prompt)
 
 # Tampilkan prompt yang sudah diacak
