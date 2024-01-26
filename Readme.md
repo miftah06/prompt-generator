@@ -63,6 +63,7 @@ python hasilkan4.py
 ```bash
 python generator.py
 ```
+## Untuk jenis input text.. kosongkan skrip.txt JIKA TIDAK DI BUTUHKAN!!
 
 Harap pastikan Anda berada di dalam lingkungan virtual (jika digunakan) sebelum menjalankan skrip-skrip ini.
 
