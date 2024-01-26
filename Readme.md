@@ -2,6 +2,7 @@ untuk instalasi jangan lupa download python terlebih dahulu:
 
 ```bash
 apt install python-is-python3
+apt install python3-pip
 ```
 atau buat di windows:
 
