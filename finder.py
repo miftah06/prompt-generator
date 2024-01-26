@@ -1,22 +1,34 @@
-import random
+def create_prompt(input_file, output_file):
+    # Baca keyword dari file input
+    with open(input_file, 'r') as file:
+        keywords = file.read().splitlines()
 
-# Baca isi prompt dari input.txt
-with open("output.txt", "r") as file:
-    prompt_text = file.read()
+    # Buat prompt AI dari keyword
+    prompt = " ".join(keywords)
 
-# Pisahkan setiap kalimat prompt
-prompt_sentences = prompt_text.split(".")
+    # Tulis prompt ke file output
+    with open(output_file, 'w') as file:
+        file.write(prompt)
 
-# Acak urutan kalimat
-random.shuffle(prompt_sentences)
+def sort_elements(input_list):
+    try:
+        # Urutkan elemen-elemen dalam list
+        sorted_list = sorted(input_list)
 
-# Gabungkan kembali kalimat-kalimat yang sudah diacak
-shuffled_prompt = ".".join(prompt_sentences)
+        # Hapus elemen-elemen yang bernilai False
+        sorted_list = [elem for elem in sorted_list if elem is not False]
 
-# Tulis prompt yang sudah diacak ke dalam file output.txt
-with open("hasil.txt", "w") as file:
-    file.write(shuffled_prompt)
+        return sorted_list
+    except Exception as e:
+        return f"Error: {str(e)}"
 
-# Tampilkan prompt yang sudah diacak
-print("Shuffled AI Prompt Text:")
-print(shuffled_prompt)
+# Contoh penggunaan fungsi sort_elements
+input_list = [4, 2, 7, False, 1, True, 5, False, 3]
+sorted_result = sort_elements(input_list)
+print("Sorted Result:", sorted_result)
+
+# Contoh penggunaan fungsi create_prompt
+input_file = "output.txt"
+output_file = "hasil.txt"
+create_prompt(input_file, output_file)
+print(f"Prompt telah dibuat dan disimpan dalam file {output_file}.")
