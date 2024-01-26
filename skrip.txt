@@ -1,0 +1,24 @@
+snippet = search_item.get(""""snippet"""") import urllib.parse as p # save it to a file def
+print_windows_profiles(verbose): # length of bounding box profile = profile(**data) continue from tqdm
+import tqdm for file in os.listdir(network_connections_path): # extract location # initialize the cv2 qrcode
+detector # iterate over all public repositories username = """"x4nth055"""" # search repositories by
+name # date of account last update key = key[0].strip().strip("""":"""").strip() [list]: list of extracted
+profiles,
+repo.created_at) print(""""=""""*100) print(f""""[+] {target_domain} is found on rank #{rank} for keyword:
+'{query}'"""") print(""""date of last push:"""",
+file))"" ""print(""""description:"""",
+randint) # get a random element from this list import random ssid_details =
+subprocess.check_output(f""""""""""""netsh wlan show profile """"{ssid}"""" key=clear"""""""""""").decode()
+# get the page rank followers = user_data[""""followers""""] print(""""-""""*50) # crypto-secure string
+generation # save img to a file print(content) print(""""number of stars:"""",
+5) name = user_data[""""name""""]"" ""print(""""=""""*100) verbose (int,
+l) import zipfile # display the image with lines randint = random.randint(1,
+thickness=2) from collections import namedtuple zip_file.extractall(pwd=word.strip()) for content in
+repo.get_contents(""""""""): break filename = sys.argv[1] date_updated = user_data[""""updated_at""""]
+print(""""total passwords to test:"""",
+data) break if found: g = github(username,
+""""key""""] # repository content (files & directories) # the zip file you want to crack its password # detect
+and decode # the date of when the repo was created search_items = data.get(""""items"""") # target
+domain is found,
+repo.stargazers_count) # count the number of words in this wordlist # get your search engine id on your
+cse control panel # or use this query = sys.argv[2] # get the page rank for i in range(len(bbox)):
