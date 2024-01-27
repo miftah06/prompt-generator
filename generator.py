@@ -42,7 +42,7 @@ def create_prompt(input_file1, input_file2, output_file, command_option, specifi
             elif prompt_type == "image":
                 output_line = f"Generate image with command: \n\n\n {command_option}, dengan latar elegant dengan penuh estetika nuansa {specification_option} bertemakan {key1_option} dengan warna {object_option} \n\n\n"
             elif prompt_type == "script":
-                output_line = f"Execute script: \n\n\n {command_option} {specification_option} dan serta buatlah bekerja dengan lebih optimal dan  sebagaimana mestinya jika hal tersebut berupa  \n {skrip_options} \n dengan {object_option} \n\n di dalam skrip {skrip} {key1_option} \n\n dengan module atau plugin tambahan {skrip_option}{features_option} \n\n\n {specification_option}\n\n\n\n"
+                output_line = f"Execute script: \n\n\n {command_option} {specification_option} dan serta buatlah bekerja dengan lebih optimal dan  sebagaimana mestinya jika hal tersebut berupa  \n {skrip_options} \n dengan {object_option} \n\n di dalam skrip {skrip} {key1_option} \n\n dengan module atau plugin tambahan {skrip_option}{features_option} \n\n\n {specification_option}\n\n dan jangan lupa berikan skrip lengkapnya \n\n"
             elif prompt_type == "soal":
                 soal = additional_input
                 output_line = f"Prompt jawab soalnya \n\n\n {command_option} {specification_option} dan jawablah jika soalnya:  \n {skrip_options} \n tanpa {object_option} \n\n maka tolong jawab {skrip} {key1_option} \n\n dengan menjelaskan {skrip_option}{features_option} \n\n\n {specification_option} secara rinci \n\n sebanyak {soal} soal \n\n"
